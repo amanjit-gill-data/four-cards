@@ -1,0 +1,51 @@
+/* GENERAL STYLES */
+
+html {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 17px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* HEADER */
+
+.header {
+    margin-bottom: 55px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.header p {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 25px auto;
+    width: 40%;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    height: 260px;
+    margin: 15px;
+    width: 370px;
+}
