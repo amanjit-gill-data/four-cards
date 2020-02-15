@@ -20,7 +20,7 @@ h2 {
 
 .header {
     font-size: 2.3rem;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     margin-top: 80px;
     text-align: center;
 }
@@ -43,9 +43,24 @@ h2 {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 8px/3.5px;
-    border-top: solid 3.5px red;
+    border-radius: 8px/3.5px; /* elliptical radius ensures that border doesn't curve around the corner */
     height: 260px;
     margin: 15px;
-    width: 370px;
+    width: 320px;
+}
+
+.supervisor {
+    border-top: solid 3.5px hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: solid 3.5px hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: solid 3.5px hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: solid 3.5px hsl(212, 86%, 64%);
 }
