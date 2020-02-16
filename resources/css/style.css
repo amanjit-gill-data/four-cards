@@ -1,4 +1,4 @@
-/* GENERAL STYLES */
+/* GLOBAL STYLES */
 
 html {
     background-color: hsl(0, 0%, 98%);
@@ -16,11 +16,16 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* HEADER */
 
 .header {
-    font-size: 2.3rem;
-    margin-bottom: 45px;
+    font-size: 2.25rem;
+    margin-bottom: 30px;
     margin-top: 80px;
     text-align: center;
 }
@@ -43,10 +48,26 @@ h2 {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 8px/3.5px; /* elliptical radius ensures that border doesn't curve around the corner */
-    height: 260px;
-    margin: 15px;
-    width: 320px;
+    border-radius: 8px/3.5px; /* elliptical radius to prevent border from curling */
+    box-shadow: 0px 10px 15px hsl(0, 0%, 86%);;
+    height: 170px;
+    margin: 30px 15px;
+    padding: 30px;
+    position: relative; /* need to set this to non-static, to position its child img correctly */
+    width: 265px;
+}
+
+.card p {
+    color: hsl(229, 6%, 66%);
+    font-size: 0.85rem;
+    margin-top: 17px;
+    line-height: 1.5;
+}
+
+.card img {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
 }
 
 .supervisor {
